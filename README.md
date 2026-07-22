@@ -1,33 +1,33 @@
-# dd-browse
+# doordash-browse
 
 Interactive terminal browser and spending reporter for DoorDash CLI.
 
 ```bash
-npm install -g dd-browse
+npm install -g doordash-browse
 ```
 
 ## Quick start
 
 ```bash
 # Rich TUI with inline images
-dd-browse
+doordash-browse
 
 # Search restaurants
-dd-browse -q "ramen"
+doordash-browse -q "ramen"
 
 # Lightweight text-only mode
-dd-browse --lite
+doordash-browse --lite
 
 # Spending report (order history + receipts)
-dd-browse --spending --days 90
+doordash-browse --spending --days 90
 ```
 
-`dd-browse` opens an interactive TUI for DoorDash. `--spending` runs spending breakdown by month and store.
+`doordash-browse` opens an interactive TUI for DoorDash. `--spending` runs spending breakdown by month and store.
 
 ## Spending report
 
 ```bash
-dd-browse --spending --days 30
+doordash-browse --spending --days 30
 ```
 
 `-d, --days <n>` sets history window (default: 90, max: 365). `--mock` runs offline test mode.

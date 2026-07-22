@@ -1,10 +1,10 @@
 {
-  "name": "dd-browse",
+  "name": "doordash-browse",
   "version": "1.0.0",
   "description": "Interactive terminal browser for DoorDash CLI with inline images and fuzzy filtering",
   "main": "index.js",
   "bin": {
-    "dd-browse": "./cli.js"
+    "doordash-browse": "./cli.js"
   },
   "scripts": {
     "start": "node cli.js",
