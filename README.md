@@ -24,6 +24,18 @@ doordash-browse --spending --days 90
 
 `doordash-browse` opens an interactive TUI for DoorDash. `--spending` runs spending breakdown by month and store.
 
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  DoorDash Browse  •  Search: "dosa"                                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  >  Saravanaa Bhavan             4.8 ★  (15-25 min)  •  $$                  │
+│     Udupi Palace                 4.7 ★  (20-30 min)  •  $$                  │
+│     Surya Darshini               4.9 ★  (10-20 min)  •  $                   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  [Enter] View Menu   [Tab] Dietary Filter   [Esc] New Search                │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 ## Spending report
 
 ```bash
