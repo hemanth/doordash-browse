@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Interactive terminal browser for DoorDash CLI with inline images and fuzzy filtering",
   "main": "index.js",
-  "bin": "./cli.js",
+  "bin": {
+    "dd-browse": "./cli.js"
+  },
   "scripts": {
     "start": "node cli.js",
     "test": "node --test"
