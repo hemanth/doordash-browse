@@ -1,6 +1,6 @@
 {
   "name": "doordash-browse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interactive terminal browser for DoorDash CLI with inline images and fuzzy filtering",
   "main": "index.js",
   "bin": {
@@ -22,8 +22,8 @@
   "dependencies": {
     "enquirer": "^2.4.1",
     "fuse.js": "^7.5.0",
-    "got": "^15.1.0",
-    "ink": "^7.1.1",
+    "got": "^16.0.0",
+    "ink": "^8.0.0",
     "ink-select-input": "^6.2.0",
     "ink-text-input": "^6.0.0",
     "react": "^19.2.8",
